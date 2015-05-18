@@ -59,7 +59,7 @@ public class Main {
         Assert.assertEquals("Test with title checking", "Онлайн резервирование и покупка билетов - Укрзализныця", MyBrowserFunction.TitleChecker());
 
         // ввести Откуда Київ
-        // eMyBrowserFunction.FillFrom ("Киев");
+        MyBrowserFunction.FillFrom ();
 
         Assert.assertTrue("Test with empty right field", true);
     }

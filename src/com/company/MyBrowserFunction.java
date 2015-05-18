@@ -39,5 +39,9 @@ public class MyBrowserFunction {
         return Browser.getTitle();
     }
 
+    public static String FillFrom () {
+        return Browser.getTitle();
+    }
+
 
 }
